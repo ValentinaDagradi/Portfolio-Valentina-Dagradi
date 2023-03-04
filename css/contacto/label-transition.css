@@ -1,0 +1,50 @@
+.form__input:not(:placeholder-shown) + .input__label,
+.form__input:focus + .input__label {
+    font-size: 0.90rem;
+    top: -4.5rem;
+    transition: all 0.25s;
+    color: var(--fuente-marron-claro);
+}
+
+.form__textarea:not(:placeholder-shown) + .textarea__label,
+.form__textarea:focus + .textarea__label {
+    font-size: 0.90rem;
+    top: -8.5rem;
+    transition: all 0.25s;
+    color: var(--fuente-marron-claro);
+}
+
+@media screen and (min-width: 768px) {
+    .form__input:not(:placeholder-shown) + .input__label,
+    .form__input:focus + .input__label {
+        left: -8.5rem;
+    }
+
+    .form__input:not(:placeholder-shown) + .label-email,
+    .form__input:focus + .label-email {
+        left: -9rem;
+    }
+
+    .form__input:not(:placeholder-shown) + .label-asunto,
+    .form__input:focus + .label-asunto {
+        left: -8.7rem;
+    }
+
+    .form__textarea:not(:placeholder-shown) + .textarea__label,
+    .form__textarea:focus + .textarea__label {
+        left: -8.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .form__input:not(:placeholder-shown) + .input__label,
+    .form__input:focus + .input__label {
+        left: 0.5rem;
+    }
+
+    .form__textarea:not(:placeholder-shown) + .textarea__label,
+    .form__textarea:focus + .textarea__label {
+        left: 0.5rem;
+    }
+}

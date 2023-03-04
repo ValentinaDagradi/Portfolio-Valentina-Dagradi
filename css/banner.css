@@ -1,0 +1,19 @@
+.banner {
+    background-color: var(--background-rosa-claro);
+    display: flex;
+    padding: 1rem 0 5rem 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*.banner::after {
+    background: url("../imagenes/curva.svg") center bottom no-repeat;
+    content: '';
+    height: 30rem;
+    position: absolute;
+    width: 100%;
+} */
+
+
+

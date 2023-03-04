@@ -1,0 +1,23 @@
+.banner__imagen {
+    width: 10rem;
+    height: 10rem;
+    border: 10px solid var(--background-fucsia);
+    border-radius: 100%;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagen {
+        width: 15rem;
+        height: 15rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner__imagen {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 3rem;
+    }
+}

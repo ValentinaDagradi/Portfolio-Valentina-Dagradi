@@ -1,0 +1,11 @@
+.proyecto__descripcion {
+    font-family: var(--raleway);
+    color: var(--fuente-verde);
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .proyecto__descripcion {
+        font-size: 1.2rem;
+    }
+}

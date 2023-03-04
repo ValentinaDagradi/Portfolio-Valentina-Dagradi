@@ -1,0 +1,15 @@
+.formacion__container {
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    .formacion__container {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .formacion__container {
+        justify-content: space-evenly;
+    }
+}

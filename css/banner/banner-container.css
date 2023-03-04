@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {    
+    .banner__container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}

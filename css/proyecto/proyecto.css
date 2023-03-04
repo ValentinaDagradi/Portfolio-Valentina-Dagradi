@@ -1,0 +1,21 @@
+.proyecto {
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .proyecto {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+}

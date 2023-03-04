@@ -1,0 +1,23 @@
+.menu__lista {
+    display: none;
+}
+
+
+.menu__lista.show {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    position: fixed;
+    margin-top: 0;
+    top: 3.5rem;
+    left: 0;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__lista {
+        display: flex;
+        flex-direction: row;
+    }
+}
+

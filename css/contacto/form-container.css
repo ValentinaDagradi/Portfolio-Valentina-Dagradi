@@ -1,0 +1,12 @@
+.form__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+    .form__container {
+        align-items: start;
+    }
+}

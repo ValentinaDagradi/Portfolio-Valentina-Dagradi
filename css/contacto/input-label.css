@@ -1,0 +1,38 @@
+.input__label {
+    position: relative;
+    top: -3.25rem;
+    left: -38%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    transition: all 0.25s;
+    font-family: var(--raleway);
+}
+
+.label-email {
+    left: -41%;
+}
+
+.label-asunto {
+    left: -38.3%;
+}
+
+@media screen and (min-width: 768px) {
+    .input__label {
+        left: -8rem;
+
+    }
+
+    .label-email {
+        left: -8.5rem;
+    }
+
+    .label-asunto {
+        left: -8.3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .input__label {
+        left: 1rem;
+    }
+}

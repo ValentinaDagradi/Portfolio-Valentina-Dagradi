@@ -1,0 +1,19 @@
+.cabecera__titulo {
+    font-weight: 400;
+    color: var(--fuente-verde);
+    font-size: 1.7rem;
+}
+
+.titulo__fucsia {
+    color: var(--fuente-marron-claro);
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 768px){
+    .cabecera__titulo {
+    overflow: hidden;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    }
+}

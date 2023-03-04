@@ -1,0 +1,19 @@
+.sobre__imagen {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__imagen {
+        display: block;
+        width: 300px;
+        height: 300px;
+        filter: brightness(500);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__imagen {
+        width: 400px;
+        height: 400px;
+    }
+}

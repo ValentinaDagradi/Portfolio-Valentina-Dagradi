@@ -1,0 +1,12 @@
+.sobre__lista__item {
+    list-style: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__lista__item {
+        margin-right: 2.2rem;
+        margin-left: 0;
+    }
+}

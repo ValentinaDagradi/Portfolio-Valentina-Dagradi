@@ -1,0 +1,9 @@
+.hobbies__container {
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) {
+    .hobbies__container {
+        justify-content: center;
+    }
+}

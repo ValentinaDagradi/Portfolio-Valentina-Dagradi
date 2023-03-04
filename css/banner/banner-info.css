@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px){
+    .banner__info {
+        display: inline-block;
+        width: 30rem;
+    }
+}

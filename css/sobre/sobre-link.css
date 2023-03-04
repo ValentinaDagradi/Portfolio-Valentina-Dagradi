@@ -1,0 +1,12 @@
+.sobre__link {
+    text-decoration: none;
+    color: var(--fuente-marron-claro);
+    display: inline;
+    font-size: 1.3rem;
+    transition: all .1s ease-in-out;
+}
+
+.sobre__link:hover {
+    text-decoration: underline;
+    color: var(--fuente-marron-oscuro);
+}

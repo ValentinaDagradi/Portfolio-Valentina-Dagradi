@@ -1,0 +1,9 @@
+.hobbies__item {
+    width: calc(25% - 2rem);
+} 
+
+@media screen and (min-width: 768px) {
+    .hobbies__item {
+        width: 20%;
+    }    
+} 

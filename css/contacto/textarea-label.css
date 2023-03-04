@@ -1,0 +1,20 @@
+.textarea__label {
+    position: relative;
+    top: -6.5rem;
+    left: -38%;
+    font-size: 1rem;
+    font-family: var(--raleway);
+}
+
+
+@media screen and (min-width: 768px) {
+    .textarea__label {
+        left: -8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .textarea__label {
+        left: 1rem;
+    }
+}

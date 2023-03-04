@@ -1,0 +1,18 @@
+.menu__redes__link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--fuente-verde);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: all .1s ease-in-out;
+}
+
+.menu__redes__link:hover {
+    color: var(--fuente-verde-oscuro);
+}
+
+@media screen and (min-width: 1024px){
+    .menu__redes__link {
+        font-size: 1.5rem;
+    }
+}

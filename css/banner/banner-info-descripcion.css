@@ -1,0 +1,11 @@
+.banner__info__descripcion {
+    color: var(--fuente-verde);
+    font-family: var(--raleway);
+    margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 768px){
+    .banner__info__descripcion {
+       font-size: 1.5rem; 
+    }
+}

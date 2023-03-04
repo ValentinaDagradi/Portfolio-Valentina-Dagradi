@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--background-fucsia);
+    font-family: var(--raleway);
+    color: var(--fuente-verde);
+    text-align: center;
+    padding: 2.5rem 1rem 1rem 1rem;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 0.5;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        font-size: 1rem;
+    }
+}

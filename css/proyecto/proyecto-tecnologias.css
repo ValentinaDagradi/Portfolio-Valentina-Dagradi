@@ -1,0 +1,12 @@
+.proyecto__tecnologias{
+    color: var(--fuente-verde);
+    font-weight: 600;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+
+@media screen {
+    .proyecto__tecnologias {
+        font-size: 1.2rem;
+    }
+}
